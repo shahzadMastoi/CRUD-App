@@ -13,6 +13,7 @@ export const deleteData =(id)=>({
   type:DELETE_TODO,
   payload:id
 })
+
 export const editData =(id)=>({
   type:UPDATE_TODO,
   payload:id
